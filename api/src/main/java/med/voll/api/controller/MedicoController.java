@@ -16,3 +16,5 @@ public class MedicoController {
 
     }
 }
+
+// https://start.spring.io/
