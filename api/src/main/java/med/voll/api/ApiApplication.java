@@ -11,3 +11,9 @@ public class ApiApplication {
 	}
 
 }
+
+// https://start.spring.io/
+// http://localhost:8080/medicos?size=1&page=2
+// http://localhost:8080/medicos?sort=nome&sort=crm
+// http://localhost:8080/medicos?sort=nome&sort=crm,desc
+// http://localhost:8080/medicos?sort=nome&sort=crm,desc&size=2&page=1
