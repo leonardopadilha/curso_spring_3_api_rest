@@ -33,4 +33,10 @@ public class MedicoController {
         //return repository.findAll(paginacao).stream().map(DadosListagemMedico::new).toList();
         return repository.findAll(paginacao).map(DadosListagemMedico::new);
     }
+
+    @PutMapping
+    @Transactional
+    public void atualizar(@RequestBody @Valid DadosCadastroMedicos dados) {
+
+    }
 }
